@@ -5,7 +5,7 @@
 
 * [WebSocket API 简介](https://github.com/dabaoliao/api_docs/wiki/WS_introduction)
 * [请求与订阅说明](https://github.com/dabaoliao/api_docs/wiki/WS_request)
-* [API Reference]()
+* [API Reference](https://github.com/dabaoliao/api_docs/wiki/WS_Api_Reference)
 * [错误代码]()
 * 代码示例：[Java]() [Python]() [Nodejs]()
 
