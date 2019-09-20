@@ -122,12 +122,28 @@
 #### 新增/修改
 
 ```
-["E","318","1568975726","ETH_QC","ASK","1542.46","19.685"]
+[
+"E",// update data
+"318",// marketId
+"1568975726",//timestamp
+"ETH_QC",//symbol
+"ASK",//dataType,ASK:sell,BID:buy
+"1542.46",//price
+"19.685"//amount,if amount == 0, it means to delete item from orderbook
+]
 ```
 
 #### 删除
 ```
-["E","318","1568975728","ETH_QC","BID","1529.45","0"]
+[
+"E",//update data
+"318",// marketId
+"1568975728",//timestamp
+"ETH_QC",//symbol
+"BID",//dataType,ASK:sell,BID:buy
+"1529.45",//price
+"0"// amount,if amount == 0, it means to delete item from orderbook
+]
 
 ```
 
