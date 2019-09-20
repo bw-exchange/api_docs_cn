@@ -22,6 +22,12 @@ ws的API都可以在一个WebSocket 连接进行处理, 通过订阅报文中的
 
 
 
-|action 类型|action 语法|action|描述|
+|action 类型|action 语法(dataType)|action|描述|
 |-----|-------|--------|---------|
-|kline|$marketId_KLINE_$klineType_ buyerCurrencyId_ sellerCurrencyId |ADD/DEL|依据周期，订阅交易对的K线数据|
+|kline|$marketId_KLINE_$klineType_$symbol |ADD/DEL|依据周期，订阅交易对的K线数据|
+|Market Depth|$marketId_ENTRUST_ADD_$klineType_$symbol |ADD/DEL|依据交易对，订阅交易对的深度数据|
+|Trade Detail|$marketId_TRADE_$symbol |ADD/DEL|依据交易对，订阅交易对的成交数据|
+|Market Tickers|ALL_TRADE_STATISTIC_24H |ADD/DEL|依据周期，订阅交易对的Ticker数据|
+|Market Tickers-single-market|$marketId_TRADE_STATISTIC_24H |ADD/DEL|依据周期，订阅交易对的Ticker数据|
+
+* $marketId: 为市场id；
