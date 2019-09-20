@@ -6,7 +6,7 @@
 * [WebSocket API 简介](https://github.com/dabaoliao/api_docs/wiki/WS_introduction)
 * [请求与订阅说明](https://github.com/dabaoliao/api_docs/wiki/WS_request)
 * [API Reference](https://github.com/dabaoliao/api_docs/wiki/WS_Api_Reference)
-* [错误代码]()
+* [错误代码](https://github.com/dabaoliao/api_docs/wiki/WS_error_code)
 * 代码示例：[Java]() [Python]() [Nodejs]()
 
 ## REST行情、交易API
