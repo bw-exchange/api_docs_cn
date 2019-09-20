@@ -34,7 +34,7 @@
 # WebSocket行情，交易推送API
 
 > webSocket连接地址: wss://kline.bw.io/websocket
-* [WebSocket API 简介]()
+* [WebSocket API 简介](https://github.com/dabaoliao/api_docs/wiki/WS_introduction)
 * [请求与订阅说明]()
 * [API Reference]()
 * [错误代码]()
