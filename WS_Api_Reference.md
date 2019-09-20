@@ -14,9 +14,9 @@
 
 |参数名称|是否必须|类型|描述|默认值|取值范围|
 |-----|-------|--------|---------|-------|-------|
-|marketId|true|int|交易对所对应的市场id| |90......|
+|marketId|true|int|交易对所对应的市场id| |318,4051,4052......|
 |klineType|true|string|K 线周期| |1M, 5M, 15M, 30M, 1H, 1D|
-|symbol|true|string|交易对| |BTC_KRW,ETH_USDT,BTC_USDT......|
+|symbol|true|string|交易对| |ETH_QC,......|
 |dataSize|false|int|数据量大小||0<=dataSize<=500; 在为0，或者不传时，仅推送1条数据|
 
 
@@ -115,8 +115,8 @@
 
 |参数名称|是否必须|类型|描述|默认值|取值范围|
 |-----|-------|--------|---------|-------|-------|
-|marketId|true|int|交易对所对应的市场id| |90......|
-|symbol|true|string|交易对| |BTC_KRW,ETH_USDT,BTC_USDT......|
+|marketId|true|int|交易对所对应的市场id| |318,4051,4052......|
+|symbol|true|string|交易对| |ETH_QC,......|
 |dataSize|false|int|数据量大小||0<=dataSize<=50; 在为0，或者不传时，仅推送1条数据|
 
 >买盘卖盘各自最多50条，后续版本全量数据可能会发多次，接收到全量数据后清空替换掉所有盘口。
@@ -223,8 +223,8 @@
 
 |参数名称|是否必须|类型|描述|默认值|取值范围|
 |-----|-------|--------|---------|-------|-------|
-|marketId|true|int|交易对所对应的市场id| |90,318......|
-|symbol|true|string|交易对| |BTC_KRW,ETH_USDT,BTC_USDT......|
+|marketId|true|int|交易对所对应的市场id| |318,4051,4052......|
+|symbol|true|string|交易对| |ETH_QC,......|
 |dataSize|false|int|数据量大小||0<=dataSize<=50; 在为0，或者不传时，仅推送1条数据|
 
 >全量数据买最多50条
