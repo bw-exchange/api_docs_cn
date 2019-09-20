@@ -17,11 +17,11 @@ ws的API都可以在一个WebSocket 连接进行处理, 通过订阅报文中的
 
 
 
-## 3.请求格式
+## 4.请求格式
 订阅数据和请求数据都要使用 action，action 的语法如下：
 
 
 
 |action 类型|action 语法|action|描述|
 |-----|-------|--------|---------|
-|kline|1212|1212|2121|
+|kline|$marketId_KLINE_$klineType_ buyerCurrencyId_ sellerCurrencyId |ADD/DEL|依据周期，订阅交易对的K线数据|
