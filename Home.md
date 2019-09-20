@@ -3,7 +3,9 @@
 支持所有 **Bw.com** 中的交易对
 
 常见问题请参考**FAQ**
----
+
+##
+
 欢迎有优秀 maker 策略且交易量大的用户参与长期做市商项目。
 具体的费率如下:
 
@@ -25,19 +27,21 @@
 3.简要阐述做市方法，不需要细节
 
 **做市商项目不支持VIP、交易量相关活动以及任何形式的返佣活动**
----
+##
+
 # 现货
----
+
 # WebSocket行情，交易推送API
+
 > webSocket连接地址: wss://kline.bw.io/websocket
 * [WebSocket API 简介]()
 * [请求与订阅说明]()
 * [API Reference]()
 * [错误代码]()
 * 代码示例：[Java]() [Python]() [Nodejs]()
----
 
 # REST行情、交易API
+
 > 域名地址：https://www.bw.io/
 
 * [REST API简介]()
