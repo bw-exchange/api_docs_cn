@@ -76,7 +76,6 @@
 
 * 增量数据
 ```
-
 [
     "K",//dataType,update data
     "318",//marketId
@@ -139,7 +138,8 @@
 
 * 全量数据
 
-```[
+```
+[
     [
         "AE",//dataType, all data
         "318", // marketId
