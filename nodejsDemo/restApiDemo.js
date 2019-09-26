@@ -151,6 +151,17 @@ const testFetchOrder =() => {
     let [body,Sign] = sign(Apiid,Timestamp,Params,SecretKey,"GET");
     httpsGet(url,Params,Apiid,Timestamp,Sign);
 }
+const testFetchBalance =() => {
+    // let url = "/exchange/fund/controller/website/fundcontroller/findbypage";
+    let url = "/exchange/fund/controller/website/fundcontroller/findbypage";
+    let Params ={}
+    let Apiid ="your Access Key";
+    let Timestamp=Date.now();
+    let SecretKey="your SecretKey";
+    let [body,Sign] = sign(Apiid,Timestamp,Params,SecretKey,"POST");
+    httpsPost(url,body,Apiid,Timestamp,Sign);
+}
+
 
 
 
