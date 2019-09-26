@@ -152,7 +152,6 @@ const testFetchOrder =() => {
     httpsGet(url,Params,Apiid,Timestamp,Sign);
 }
 const testFetchBalance =() => {
-    // let url = "/exchange/fund/controller/website/fundcontroller/findbypage";
     let url = "/exchange/fund/controller/website/fundcontroller/findbypage";
     let Params ={}
     let Apiid ="your Access Key";
