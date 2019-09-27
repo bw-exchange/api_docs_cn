@@ -44,7 +44,7 @@
 
 ## REST行情、交易API
 
-> 域名地址：:https://www.bw.com
+> 域名地址: https://www.bw.com
 
 * [REST API 请求说明](https://github.com/bw-exchange/api_docs_cn/wiki/REST-API-%E8%AF%B7%E6%B1%82%E8%AF%B4%E6%98%8E)
 * [签名认证(重要，请仔细阅读)](https://github.com/bw-exchange/api_docs_cn/wiki/REST-API-%E7%AD%BE%E5%90%8D%E8%AE%A4%E8%AF%81(%E9%87%8D%E8%A6%81%EF%BC%8C%E8%AF%B7%E4%BB%94%E7%BB%86%E9%98%85%E8%AF%BB))
