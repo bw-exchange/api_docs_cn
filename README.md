@@ -2,7 +2,7 @@
 
 目前关于apikey申请和修改，请在“个人中心 - API设置”页面进行相关操作。
 
-常见问题请参考[**FAQ**](https://github.com/bw-exchange/api_docs_cn/issues)
+常见问题请参考[**Issues**](https://github.com/bw-exchange/api_docs_cn/issues)
 
 ##
 
